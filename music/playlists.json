@@ -3,7 +3,7 @@
     {
       "id": "thesis_hours",
       "name": "Thesis Hours",
-      "description": "Deep focus. Morrison and Lacan at 2am.",
+      "description": "",
       "tracks": [
         {
           "title": "1/1",
@@ -64,7 +64,7 @@
     {
       "id": "dembow",
       "name": "Dembow y Norte\u00f1os",
-      "description": "The real rotation. No apologies.",
+      "description": "",
       "tracks": [
         {
           "title": "Tit\u00ed Me Pregunt\u00f3",
@@ -134,7 +134,7 @@
     {
       "id": "night_drives",
       "name": "Night Drives",
-      "description": "Windows down, nowhere to be.",
+      "description": "",
       "tracks": [
         {
           "title": "Nights",
@@ -204,7 +204,7 @@
     {
       "id": "practice",
       "name": "Practice",
-      "description": "Sit down. Shut up. Listen.",
+      "description": "",
       "tracks": [
         {
           "title": "Journey in Satchidananda",
@@ -265,7 +265,7 @@
     {
       "id": "canon",
       "name": "The Canon",
-      "description": "The tracks that made me.",
+      "description": "",
       "tracks": [
         {
           "title": "How to Disappear Completely",
