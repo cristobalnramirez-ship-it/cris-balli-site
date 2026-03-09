@@ -3,7 +3,7 @@
     {
       "id": "norteno",
       "name": "Norteño",
-      "description": "My tío's truck.",
+      "description": "Classical.",
       "tracks": [
         { "title": "Sentimientos", "artist": "Grupo Límite", "source": "spotify", "sourceUrl": "" },
         { "title": "Prenda del Alma", "artist": "Chalino Sánchez", "source": "spotify", "sourceUrl": "" },
@@ -32,7 +32,7 @@
     {
       "id": "tumbados",
       "name": "Tumbados",
-      "description": "The new canon.",
+      "description": "Tumbado.",
       "tracks": [
         { "title": "GAVILÁN II", "artist": "Peso Pluma & Tito Double P", "source": "spotify", "sourceUrl": "" },
         { "title": "dopamina", "artist": "Peso Pluma & Tito Double P", "source": "spotify", "sourceUrl": "" },
@@ -67,7 +67,7 @@
     {
       "id": "tropical",
       "name": "Tropical",
-      "description": "Kitchen music.",
+      "description": "Caribeño.",
       "tracks": [
         { "title": "Amame", "artist": "El Gran Combo de Puerto Rico", "source": "spotify", "sourceUrl": "" },
         { "title": "La Vida Es un Carnaval", "artist": "Celia Cruz", "source": "spotify", "sourceUrl": "" },
@@ -83,7 +83,7 @@
     {
       "id": "rap",
       "name": "Rap",
-      "description": "No skips.",
+      "description": "American.",
       "tracks": [
         { "title": "Pound Cake / Paris Morton Music 2", "artist": "Drake", "source": "spotify", "sourceUrl": "" },
         { "title": "Gabby (Vino24k Remix)", "artist": "Tisakorean", "source": "spotify", "sourceUrl": "" },
@@ -116,7 +116,7 @@
     {
       "id": "after_hours",
       "name": "After Hours",
-      "description": "3am.",
+      "description": "Truth.",
       "tracks": [
         { "title": "He Loved Him Madly", "artist": "Miles Davis", "source": "spotify", "sourceUrl": "" },
         { "title": "desire machine", "artist": "spirit blue", "source": "spotify", "sourceUrl": "" },
