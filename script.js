@@ -596,9 +596,9 @@ function renderTrackList(playlist) {
         <span class="track-artist">${escapeHtml(track.artist)}${track.year ? " \u00b7 " + escapeHtml(track.year) : ""}</span>
         ${track.note ? `<span class="track-note">${escapeHtml(track.note)}</span>` : ""}
       </div>
-      <a href="${escapeHtml(track.sourceUrl)}" class="track-source" target="_blank" rel="noopener" title="Open in ${escapeHtml(track.source)}">
+      ${track.sourceUrl ? `<a href="${escapeHtml(track.sourceUrl)}" class="track-source" target="_blank" rel="noopener" title="Open in ${escapeHtml(track.source)}">
         <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
-      </a>
+      </a>` : ""}
     </div>
   `
     )

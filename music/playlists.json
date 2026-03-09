@@ -1,344 +1,137 @@
 {
   "playlists": [
     {
-      "id": "thesis_hours",
-      "name": "Thesis Hours",
-      "description": "",
+      "id": "norteno",
+      "name": "Norteño",
+      "description": "My tío's truck.",
       "tracks": [
-        {
-          "title": "1/1",
-          "artist": "Brian Eno",
-          "album": "Ambient 1: Music for Airports",
-          "year": "1978",
-          "note": "The original ambient record. Every thesis needs its runway.",
-          "source": "spotify",
-          "sourceUrl": "https://open.spotify.com/track/5ueH7KJVQFiZxBTfNOJsVD"
-        },
-        {
-          "title": "On the Nature of Daylight",
-          "artist": "Max Richter",
-          "album": "The Blue Notebooks",
-          "year": "2004",
-          "note": "The saddest beautiful thing. Arrival didn't ruin it \u2014 it confirmed it.",
-          "source": "spotify",
-          "sourceUrl": "https://open.spotify.com/track/0lGGfMkjgmTBSSGJuPmOSB"
-        },
-        {
-          "title": "Says",
-          "artist": "Nils Frahm",
-          "album": "Spaces",
-          "year": "2013",
-          "note": "Nine minutes of build. The thesis writes itself after minute six.",
-          "source": "spotify",
-          "sourceUrl": "https://open.spotify.com/track/60jFaQV7Z4boGCYQyBOjdi"
-        },
-        {
-          "title": "Merry Christmas Mr. Lawrence",
-          "artist": "Ryuichi Sakamoto",
-          "album": "Merry Christmas Mr. Lawrence OST",
-          "year": "1983",
-          "note": "Play this and try not to write something true.",
-          "source": "spotify",
-          "sourceUrl": "https://open.spotify.com/track/1qCkxGMyzT3JNXlPMGi3FR"
-        },
-        {
-          "title": "Spiegel im Spiegel",
-          "artist": "Arvo P\u00e4rt",
-          "album": "Alina",
-          "year": "1978",
-          "note": "Mirror in mirror. The silence between the notes is the argument.",
-          "source": "spotify",
-          "sourceUrl": "https://open.spotify.com/track/27eSP5r0H1CRruwGPwOPJz"
-        },
-        {
-          "title": "Holding",
-          "artist": "Grouper",
-          "album": "Dragging a Dead Deer Up a Hill",
-          "year": "2008",
-          "note": "Like writing underwater. Which is sometimes what theory feels like.",
-          "source": "spotify",
-          "sourceUrl": "https://open.spotify.com/track/6bXjJqoTUGPjNMVyJlPKcG"
-        }
+        { "title": "Sentimientos", "artist": "Grupo Límite", "source": "spotify", "sourceUrl": "" },
+        { "title": "Prenda del Alma", "artist": "Chalino Sánchez", "source": "spotify", "sourceUrl": "" },
+        { "title": "Florita del Alma", "artist": "Chalino Sánchez", "source": "spotify", "sourceUrl": "" },
+        { "title": "Nieves De Enero", "artist": "Chalino Sánchez", "source": "spotify", "sourceUrl": "" },
+        { "title": "Los Chismes", "artist": "Chalino Sánchez", "source": "spotify", "sourceUrl": "" },
+        { "title": "Los dos amigos", "artist": "Los Meros Meros Gigantes", "source": "spotify", "sourceUrl": "" },
+        { "title": "La Puerta Negra", "artist": "Los Tigres del Norte", "source": "spotify", "sourceUrl": "" },
+        { "title": "Entiérrenme Cantando", "artist": "Ramón Ayala y Sus Bravos del Norte", "source": "spotify", "sourceUrl": "" },
+        { "title": "Corrido del Quemador", "artist": "Ramón Ayala", "source": "spotify", "sourceUrl": "" },
+        { "title": "Corrido de Daniel del Fierro", "artist": "Ramón Ayala y Sus Bravos del Norte", "source": "spotify", "sourceUrl": "" },
+        { "title": "Desvelado", "artist": "Bobby Pulido", "source": "spotify", "sourceUrl": "" },
+        { "title": "Con La Misma Piedra", "artist": "Grupo Límite", "source": "spotify", "sourceUrl": "" },
+        { "title": "Te Aprovechas", "artist": "Grupo Límite", "source": "spotify", "sourceUrl": "" },
+        { "title": "Acariciame", "artist": "Grupo Límite", "source": "spotify", "sourceUrl": "" },
+        { "title": "Que no quede huella", "artist": "Bronco", "source": "spotify", "sourceUrl": "" },
+        { "title": "Arriba la Compañía", "artist": "LOS DOS DE TAMAULIPAS", "source": "spotify", "sourceUrl": "" },
+        { "title": "Me Vas A Recordar", "artist": "Los Ángeles de Charly", "source": "spotify", "sourceUrl": "" },
+        { "title": "Si Yo Fuera Él", "artist": "Cardenales de Nuevo León", "source": "spotify", "sourceUrl": "" },
+        { "title": "¿Y Cómo Es Él?", "artist": "Cardenales de Nuevo León", "source": "spotify", "sourceUrl": "" },
+        { "title": "Asi Fue (En Vivo)", "artist": "Juan Gabriel", "source": "spotify", "sourceUrl": "" },
+        { "title": "MIENTRAS DUERMES", "artist": "Junior H", "source": "spotify", "sourceUrl": "" },
+        { "title": "Beretta (De Los Cerros La...)", "artist": "El De Las R's", "source": "spotify", "sourceUrl": "" }
       ]
     },
     {
-      "id": "dembow",
-      "name": "Dembow y Norte\u00f1os",
-      "description": "",
+      "id": "tumbados",
+      "name": "Tumbados",
+      "description": "The new canon.",
       "tracks": [
-        {
-          "title": "Tit\u00ed Me Pregunt\u00f3",
-          "artist": "Bad Bunny",
-          "album": "Un Verano Sin Ti",
-          "year": "2022",
-          "note": "Summer 2022 distilled into four minutes. Everyone heard it. We felt it different.",
-          "source": "spotify",
-          "sourceUrl": "https://open.spotify.com/track/1IHWl5LamUGVMSMHSGoHmS"
-        },
-        {
-          "title": "Nieves de Enero",
-          "artist": "Chalino S\u00e1nchez",
-          "album": "Nieves de Enero",
-          "year": "1995",
-          "note": "My t\u00edo's truck. Every Sunday. Non-negotiable.",
-          "source": "spotify",
-          "sourceUrl": "https://open.spotify.com/track/2AlGSGKOyPCnO2cvf6XYMZ"
-        },
-        {
-          "title": "La Puerta Negra",
-          "artist": "Los Tigres del Norte",
-          "album": "La Puerta Negra",
-          "year": "1989",
-          "note": "The norte\u00f1o standard. If you know, you know.",
-          "source": "spotify",
-          "sourceUrl": "https://open.spotify.com/track/4KApFarKJTtLPMkIjWLGbK"
-        },
-        {
-          "title": "Ella Baila Sola",
-          "artist": "Eslabon Armado & Peso Pluma",
-          "album": "Ella Baila Sola",
-          "year": "2023",
-          "note": "The song that put corridos tumbados on the Billboard chart. History.",
-          "source": "spotify",
-          "sourceUrl": "https://open.spotify.com/track/3bSCuD9snIggRsYLUy1B5g"
-        },
-        {
-          "title": "Bebe Dame",
-          "artist": "Fuerza Regida & Grupo Frontera",
-          "album": "Bebe Dame",
-          "year": "2023",
-          "note": "Cumbia-norte\u00f1o crossover that your abuela and your prima both love.",
-          "source": "spotify",
-          "sourceUrl": "https://open.spotify.com/track/3P7grSEObsVDGxJi3XVqmA"
-        },
-        {
-          "title": "SAOKO",
-          "artist": "Rosal\u00eda",
-          "album": "MOTOMAMI",
-          "year": "2022",
-          "note": "Genre doesn't apply here. Rosal\u00eda operates outside the categories.",
-          "source": "spotify",
-          "sourceUrl": "https://open.spotify.com/track/1iFgOlBqRKqscOQsJQnKbH"
-        },
-        {
-          "title": "Dakiti",
-          "artist": "Bad Bunny & Jhay Cortez",
-          "album": "El \u00daltimo Tour Del Mundo",
-          "year": "2020",
-          "note": "The one that crossed over without losing anything in translation.",
-          "source": "spotify",
-          "sourceUrl": "https://open.spotify.com/track/4MzXwWMhyBbmu6hOcLVD49"
-        }
+        { "title": "GAVILÁN II", "artist": "Peso Pluma & Tito Double P", "source": "spotify", "sourceUrl": "" },
+        { "title": "dopamina", "artist": "Peso Pluma & Tito Double P", "source": "spotify", "sourceUrl": "" },
+        { "title": "7-3", "artist": "Peso Pluma & Tito Double P", "source": "spotify", "sourceUrl": "" },
+        { "title": "LA PEOPLE II", "artist": "Peso Pluma, Tito Double P & Junior H", "source": "spotify", "sourceUrl": "" },
+        { "title": "billete", "artist": "Peso Pluma & Tito Double P", "source": "spotify", "sourceUrl": "" },
+        { "title": "bckpckbyz", "artist": "Peso Pluma & Tito Double P", "source": "spotify", "sourceUrl": "" },
+        { "title": "ni pedo", "artist": "Peso Pluma & Tito Double P", "source": "spotify", "sourceUrl": "" },
+        { "title": "intro", "artist": "Peso Pluma & Tito Double P", "source": "spotify", "sourceUrl": "" },
+        { "title": "putielegante", "artist": "Peso Pluma & Tito Double P", "source": "spotify", "sourceUrl": "" },
+        { "title": "NUEVA VIDA", "artist": "Peso Pluma", "source": "spotify", "sourceUrl": "" },
+        { "title": "LAGUNAS", "artist": "Peso Pluma & Jasiel Nuñez", "source": "spotify", "sourceUrl": "" },
+        { "title": "LADY GAGA", "artist": "Peso Pluma, Gabito Ballesteros & Junior H", "source": "spotify", "sourceUrl": "" },
+        { "title": "Disfruto Lo Malo", "artist": "Natanael Cano", "source": "spotify", "sourceUrl": "" },
+        { "title": "AMG", "artist": "Natanael Cano, Peso Pluma & Junior H", "source": "spotify", "sourceUrl": "" },
+        { "title": "ME JALO", "artist": "Fuerza Regida & Grupo Frontera", "source": "spotify", "sourceUrl": "" },
+        { "title": "Bebe Dame", "artist": "Fuerza Regida & Grupo Frontera", "source": "spotify", "sourceUrl": "" },
+        { "title": "A LA ORDEN", "artist": "Santa Fe Klan & Yahir Saldivar", "source": "spotify", "sourceUrl": "" },
+        { "title": "DtMF", "artist": "Bad Bunny", "source": "spotify", "sourceUrl": "" },
+        { "title": "NUEVAYoL", "artist": "Bad Bunny", "source": "spotify", "sourceUrl": "" },
+        { "title": "EL CLúB", "artist": "Bad Bunny", "source": "spotify", "sourceUrl": "" },
+        { "title": "Siéntate en Ese Deo", "artist": "El Alfa", "source": "spotify", "sourceUrl": "" },
+        { "title": "Mamazota", "artist": "Arlene MC", "source": "spotify", "sourceUrl": "" },
+        { "title": "No Se Ke Tiene", "artist": "S4nx & Hanxo", "source": "spotify", "sourceUrl": "" },
+        { "title": "Mash up Bellako", "artist": "B.A.D. Mvsic", "source": "spotify", "sourceUrl": "" },
+        { "title": "EL AUTÉNTICO", "artist": "Doony Graff & Onemillionkisses", "source": "spotify", "sourceUrl": "" },
+        { "title": "La Obsesión", "artist": "Yeyo, Doony Graff & Novato El Nuevo", "source": "spotify", "sourceUrl": "" },
+        { "title": "RAMPAMPAMPAM", "artist": "Nasty Vato, Vic Gunn, Doony Graff", "source": "spotify", "sourceUrl": "" },
+        { "title": "tiempo pasa", "artist": "Judeline & DELLAFUENTE", "source": "spotify", "sourceUrl": "" }
       ]
     },
     {
-      "id": "night_drives",
-      "name": "Night Drives",
-      "description": "",
+      "id": "tropical",
+      "name": "Tropical",
+      "description": "Kitchen music.",
       "tracks": [
-        {
-          "title": "Nights",
-          "artist": "Frank Ocean",
-          "album": "Blonde",
-          "year": "2016",
-          "note": "The beat switch. You know exactly where you were when you first heard it.",
-          "source": "spotify",
-          "sourceUrl": "https://open.spotify.com/track/7eqoqGkKwgOaWNNHx90uL3"
-        },
-        {
-          "title": "Let It Happen",
-          "artist": "Tame Impala",
-          "album": "Currents",
-          "year": "2015",
-          "note": "Surrender as thesis statement. Seven minutes of letting go.",
-          "source": "spotify",
-          "sourceUrl": "https://open.spotify.com/track/2X485T9Z5Ly0xyaghN73ed"
-        },
-        {
-          "title": "Space Song",
-          "artist": "Beach House",
-          "album": "Depression Cherry",
-          "year": "2015",
-          "note": "TikTok found this but we had it first. Still untouchable.",
-          "source": "spotify",
-          "sourceUrl": "https://open.spotify.com/track/7H0ya83CMmgFcOhw0UB6ow"
-        },
-        {
-          "title": "Something About Us",
-          "artist": "Daft Punk",
-          "album": "Discovery",
-          "year": "2001",
-          "note": "Robots made the most human love song of the decade.",
-          "source": "spotify",
-          "sourceUrl": "https://open.spotify.com/track/69vhDitQJbFOTsEiLRTFvj"
-        },
-        {
-          "title": "Everything In Its Right Place",
-          "artist": "Radiohead",
-          "album": "Kid A",
-          "year": "2000",
-          "note": "The first track on Kid A. Nothing was in its right place after this.",
-          "source": "spotify",
-          "sourceUrl": "https://open.spotify.com/track/2kBqVyAHnDJlYRmEhKBRBP"
-        },
-        {
-          "title": "Time (You and I)",
-          "artist": "Khruangbin",
-          "album": "Con Todo El Mundo",
-          "year": "2018",
-          "note": "Thai funk by way of Houston. Home away from home.",
-          "source": "spotify",
-          "sourceUrl": "https://open.spotify.com/track/7MbT5PkFtGJFSaJfCICk8b"
-        },
-        {
-          "title": "See You Again",
-          "artist": "Tyler, the Creator",
-          "album": "Flower Boy",
-          "year": "2017",
-          "note": "Kali Uchis' verse is the best 30 seconds of that year.",
-          "source": "spotify",
-          "sourceUrl": "https://open.spotify.com/track/7KA4W4McWYRpgf0fWsJZWB"
-        }
+        { "title": "Amame", "artist": "El Gran Combo de Puerto Rico", "source": "spotify", "sourceUrl": "" },
+        { "title": "La Vida Es un Carnaval", "artist": "Celia Cruz", "source": "spotify", "sourceUrl": "" },
+        { "title": "Cumbia Campesina", "artist": "La Tropa Vallenata", "source": "spotify", "sourceUrl": "" },
+        { "title": "Bailando Cumbia", "artist": "Andres Landero y Su Conjunto", "source": "spotify", "sourceUrl": "" },
+        { "title": "Cuando Lo Negro Sea Bello", "artist": "Andres Landero y Su Conjunto", "source": "spotify", "sourceUrl": "" },
+        { "title": "Te Llevaré", "artist": "Lisandro Meza", "source": "spotify", "sourceUrl": "" },
+        { "title": "Que Locura Enamorarme De Ti", "artist": "Eddie Santiago", "source": "spotify", "sourceUrl": "" },
+        { "title": "Não Há Mais Tempo", "artist": "Angela Maria", "source": "spotify", "sourceUrl": "" },
+        { "title": "We Belong Together", "artist": "Ritchie Valens", "source": "spotify", "sourceUrl": "" }
       ]
     },
     {
-      "id": "practice",
-      "name": "Practice",
-      "description": "",
+      "id": "rap",
+      "name": "Rap",
+      "description": "No skips.",
       "tracks": [
-        {
-          "title": "Journey in Satchidananda",
-          "artist": "Alice Coltrane",
-          "album": "Journey in Satchidananda",
-          "year": "1971",
-          "note": "The harp and the bass. Devotion as sound. This is where it starts.",
-          "source": "spotify",
-          "sourceUrl": "https://open.spotify.com/track/7sggv8MIjwOHVKwcfzuhjd"
-        },
-        {
-          "title": "Om Namah Shivaya",
-          "artist": "Krishna Das",
-          "album": "Live on Earth",
-          "year": "1999",
-          "note": "Kirtan for the Western ear. The repetition is the point.",
-          "source": "spotify",
-          "sourceUrl": "https://open.spotify.com/track/3kBH4wRkTIUkPSBQaTYXrj"
-        },
-        {
-          "title": "Da Pacem Domine",
-          "artist": "Arvo P\u00e4rt",
-          "album": "Da Pacem",
-          "year": "2004",
-          "note": "Grant peace. That's the whole prayer. That's enough.",
-          "source": "spotify",
-          "sourceUrl": "https://open.spotify.com/track/1bIdD7QATNFkc3KqLYpTi8"
-        },
-        {
-          "title": "Earth Blue",
-          "artist": "Deuter",
-          "album": "Earth Blue",
-          "year": "1983",
-          "note": "New age gets a bad rap. This transcends the category.",
-          "source": "spotify",
-          "sourceUrl": "https://open.spotify.com/track/1W6k57p5TmJyZH5J7pCkqF"
-        },
-        {
-          "title": "Symphony No. 3: II. Lento e largo",
-          "artist": "Henryk G\u00f3recki",
-          "album": "Symphony No. 3",
-          "year": "1976",
-          "note": "A mother's lament carved into the wall of a Gestapo cell. Art as witness.",
-          "source": "spotify",
-          "sourceUrl": "https://open.spotify.com/track/7JjI6MqDy1JMn0bBqGMqkH"
-        },
-        {
-          "title": "Hymn to the Sun",
-          "artist": "Deuter",
-          "album": "Sun Spirit",
-          "year": "2000",
-          "note": "Morning practice soundtrack. Before the mind starts its commentary.",
-          "source": "spotify",
-          "sourceUrl": "https://open.spotify.com/track/3S7ICGnBYJpBYJeSWjy6lB"
-        }
+        { "title": "Pound Cake / Paris Morton Music 2", "artist": "Drake", "source": "spotify", "sourceUrl": "" },
+        { "title": "Gabby (Vino24k Remix)", "artist": "Tisakorean", "source": "spotify", "sourceUrl": "" },
+        { "title": "GO DO IT #jerseyclub", "artist": "Ziahfyah & sjmadeit", "source": "spotify", "sourceUrl": "" },
+        { "title": "Better Use Yo Mind", "artist": "Ajizzle Kg", "source": "spotify", "sourceUrl": "" },
+        { "title": "Turbo", "artist": "Glokk40Spaz", "source": "spotify", "sourceUrl": "" },
+        { "title": "Die With Regret", "artist": "Glokk40Spaz", "source": "spotify", "sourceUrl": "" },
+        { "title": "Surreal", "artist": "Glokk40Spaz", "source": "spotify", "sourceUrl": "" },
+        { "title": "When I'm Awake", "artist": "Glokk40Spaz", "source": "spotify", "sourceUrl": "" },
+        { "title": "Fix My Habits", "artist": "Glokk40Spaz", "source": "spotify", "sourceUrl": "" },
+        { "title": "Terabithia", "artist": "Glokk40Spaz", "source": "spotify", "sourceUrl": "" },
+        { "title": "4 Raws", "artist": "EsDeeKid", "source": "spotify", "sourceUrl": "" },
+        { "title": "Century", "artist": "EsDeeKid", "source": "spotify", "sourceUrl": "" },
+        { "title": "My Lord (Hair Done)", "artist": "RelicRhymes", "source": "spotify", "sourceUrl": "" },
+        { "title": "sygen", "artist": "neva pray", "source": "spotify", "sourceUrl": "" },
+        { "title": "Never Die", "artist": "Viuta", "source": "spotify", "sourceUrl": "" },
+        { "title": "That's On Me", "artist": "Yella Beezy", "source": "spotify", "sourceUrl": "" },
+        { "title": "Life Is Good", "artist": "Future", "source": "spotify", "sourceUrl": "" },
+        { "title": "The Percocet & Stripper Joint", "artist": "Future", "source": "spotify", "sourceUrl": "" },
+        { "title": "Too Comfortable", "artist": "Future", "source": "spotify", "sourceUrl": "" },
+        { "title": "Bound 2", "artist": "Kanye West", "source": "spotify", "sourceUrl": "" },
+        { "title": "RUNNING OUT OF TIME", "artist": "Tyler, The Creator", "source": "spotify", "sourceUrl": "" },
+        { "title": "Pornography", "artist": "Travis Scott", "source": "spotify", "sourceUrl": "" },
+        { "title": "Puttin ya dine", "artist": "47Babyk", "source": "spotify", "sourceUrl": "" },
+        { "title": "Drop yo lo", "artist": "Getrichhkayy", "source": "spotify", "sourceUrl": "" },
+        { "title": "My Ghetto Angel", "artist": "Lah93", "source": "spotify", "sourceUrl": "" },
+        { "title": "Orchards", "artist": "Navy Blue", "source": "spotify", "sourceUrl": "" }
       ]
     },
     {
-      "id": "canon",
-      "name": "The Canon",
-      "description": "",
+      "id": "after_hours",
+      "name": "After Hours",
+      "description": "3am.",
       "tracks": [
-        {
-          "title": "How to Disappear Completely",
-          "artist": "Radiohead",
-          "album": "Kid A",
-          "year": "2000",
-          "note": "I'm not here. This isn't happening. The most honest lyric ever written.",
-          "source": "spotify",
-          "sourceUrl": "https://open.spotify.com/track/2jJfbrMDp0pABMijDINqnQ"
-        },
-        {
-          "title": "Sing About Me, I'm Dying of Thirst",
-          "artist": "Kendrick Lamar",
-          "album": "good kid, m.A.A.d city",
-          "year": "2012",
-          "note": "Twelve minutes. Two deaths. A baptism. The whole American story.",
-          "source": "spotify",
-          "sourceUrl": "https://open.spotify.com/track/1Z1VCcmo4s0i7hpARdTSvM"
-        },
-        {
-          "title": "Hallelujah",
-          "artist": "Jeff Buckley",
-          "album": "Grace",
-          "year": "1994",
-          "note": "Cohen wrote it. Buckley made it holy.",
-          "source": "spotify",
-          "sourceUrl": "https://open.spotify.com/track/3pRaLNL3b8x5uBOq84Yz2v"
-        },
-        {
-          "title": "Feeling Good",
-          "artist": "Nina Simone",
-          "album": "I Put a Spell on You",
-          "year": "1965",
-          "note": "The voice that makes you understand what freedom costs.",
-          "source": "spotify",
-          "sourceUrl": "https://open.spotify.com/track/5ygDXis42ncn6kYG14lEVG"
-        },
-        {
-          "title": "This Must Be the Place (Naive Melody)",
-          "artist": "Talking Heads",
-          "album": "Speaking in Tongues",
-          "year": "1983",
-          "note": "Home is where I want to be. The only love song that matters.",
-          "source": "spotify",
-          "sourceUrl": "https://open.spotify.com/track/6aBUnkXuCEQQHAlTokv9or"
-        },
-        {
-          "title": "J\u00f3ga",
-          "artist": "Bj\u00f6rk",
-          "album": "Homogenic",
-          "year": "1997",
-          "note": "Emotional landscapes. Bj\u00f6rk mapped the interior before anyone had the vocabulary.",
-          "source": "spotify",
-          "sourceUrl": "https://open.spotify.com/track/3ZE3wv8V3w2T2f7nOCjV0N"
-        },
-        {
-          "title": "A Love Supreme, Pt. 1 - Acknowledgement",
-          "artist": "John Coltrane",
-          "album": "A Love Supreme",
-          "year": "1965",
-          "note": "Coltrane's prayer. The reason jazz exists.",
-          "source": "spotify",
-          "sourceUrl": "https://open.spotify.com/track/6YWoEhsBPMGiTPX4yNkmtD"
-        },
-        {
-          "title": "Between the Bars",
-          "artist": "Elliott Smith",
-          "album": "Either/Or",
-          "year": "1997",
-          "note": "The gentlest devastation. Whispered like a secret you weren't supposed to hear.",
-          "source": "spotify",
-          "sourceUrl": "https://open.spotify.com/track/2HKHOaGGMCBnWwxVOlSwSB"
-        }
+        { "title": "He Loved Him Madly", "artist": "Miles Davis", "source": "spotify", "sourceUrl": "" },
+        { "title": "desire machine", "artist": "spirit blue", "source": "spotify", "sourceUrl": "" },
+        { "title": "The Order of Death", "artist": "Public Image Ltd.", "source": "spotify", "sourceUrl": "" },
+        { "title": "Vacant", "artist": "Sxnctuary", "source": "spotify", "sourceUrl": "" },
+        { "title": "Departure", "artist": "Sxnctuary", "source": "spotify", "sourceUrl": "" },
+        { "title": "Ralome", "artist": "Plaid", "source": "spotify", "sourceUrl": "" },
+        { "title": "Magic", "artist": "Pilot", "source": "spotify", "sourceUrl": "" },
+        { "title": "Rêve (Remastered)", "artist": "Vangelis", "source": "spotify", "sourceUrl": "" },
+        { "title": "Konya", "artist": "Basa Basa", "source": "spotify", "sourceUrl": "" },
+        { "title": "Vaka (Live)", "artist": "Sigur Rós", "source": "spotify", "sourceUrl": "" },
+        { "title": "Is It a Crime?", "artist": "Sade", "source": "spotify", "sourceUrl": "" },
+        { "title": "Like a Tattoo", "artist": "Sade", "source": "spotify", "sourceUrl": "" },
+        { "title": "After the Dance (Vocal)", "artist": "Marvin Gaye", "source": "spotify", "sourceUrl": "" },
+        { "title": "A Warm Place", "artist": "Nine Inch Nails", "source": "spotify", "sourceUrl": "" }
       ]
     }
   ]
