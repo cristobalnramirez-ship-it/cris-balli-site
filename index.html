@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cristobal Balli</title>
+  <meta name="description" content="Comparative Literature, Computational Research, Cornell '26. Writing, building tools, asking questions.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Source+Serif+4:ital,opsz,wght@0,8..60,300;0,8..60,400;0,8..60,600;1,8..60,300;1,8..60,400&family=JetBrains+Mono:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav id="nav" aria-label="Main navigation">
+    <div class="nav-inner">
+      <a href="#" class="nav-name">Cristobal Balli</a>
+      <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <div class="nav-links">
+        <a href="#writing">Writing</a>
+        <a href="#lab">Lab</a>
+        <a href="#music">Music</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+        <span class="nav-sep"></span>
+        <button class="theme-toggle" aria-label="Toggle light/dark mode" title="Toggle theme">
+          <svg class="icon-sun" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg>
+          <svg class="icon-moon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <header id="hero">
+    <div class="container">
+      <h1>Cristobal Balli</h1>
+      <p class="hero-sub">Comparative Literature &middot; Computational Research &middot; Cornell '26</p>
+      <div class="hero-links">
+        <a href="https://github.com/crisballi" target="_blank" rel="noopener">GitHub</a>
+        <a href="https://crisballi.substack.com" target="_blank" rel="noopener">Substack</a>
+        <a href="mailto:cnr35@cornell.edu">Email</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Writing -->
+  <section id="writing">
+    <div class="container">
+      <h2>Writing</h2>
+      <div id="writing-grid" class="card-grid writing-grid">
+        <!-- Rendered by script.js -->
+      </div>
+    </div>
+  </section>
+
+  <!-- Lab -->
+  <section id="lab">
+    <div class="container">
+      <h2>Lab</h2>
+      <p class="section-sub"><em>Computational tools for reading what resists being read.</em></p>
+      <div id="lab-grid" class="card-grid lab-grid">
+        <!-- Rendered by script.js -->
+      </div>
+    </div>
+  </section>
+
+  <!-- Music -->
+  <section id="music">
+    <div class="container">
+      <h2>Music</h2>
+      <p class="section-sub"><em>The musical equivalent of a bookshelf in someone's office.</em></p>
+      <div class="playlist-tabs" role="tablist" aria-label="Playlists"></div>
+      <p class="playlist-desc"></p>
+      <div class="track-list" role="list"></div>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section id="about">
+    <div class="container">
+      <h2>About</h2>
+      <div class="about-content">
+        <p>I study comparative literature at Cornell, where my thesis applies trauma theory to Toni Morrison's <em>Beloved</em>. I build computational tools for questions that don't fit cleanly into one discipline&mdash;cultural emergence detection, archival memory systems, contemplative technology. I'm looking for work at organizations where critical thinking and technical capacity aren't treated as separate skill sets.</p>
+        <div class="about-links">
+          <a href="resume.pdf" class="about-link" target="_blank">Resume (PDF)</a>
+          <a href="https://crisballi.substack.com" class="about-link" target="_blank" rel="noopener">Substack</a>
+          <a href="https://github.com/crisballi" class="about-link" target="_blank" rel="noopener">GitHub</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact">
+    <div class="container">
+      <h2>Contact</h2>
+      <div class="contact-links">
+        <a href="mailto:cnr35@cornell.edu">cnr35@cornell.edu</a>
+        <a href="https://github.com/crisballi" target="_blank" rel="noopener">GitHub</a>
+        <a href="https://crisballi.substack.com" target="_blank" rel="noopener">Substack</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <p class="footer-quote"><em>&ldquo;The prayer machine, the translation engine, the inequality map, and the Red Book reader are the same tool pointed at different wounds.&rdquo;</em></p>
+    </div>
+  </footer>
+
+  <!-- Mini Player -->
+  <div id="mini-player" class="mini-player" aria-label="Music player" hidden>
+    <div class="mini-player-inner">
+      <div class="mini-player-embed"></div>
+      <div class="mini-player-info">
+        <span class="mini-player-title"></span>
+        <span class="mini-player-artist"></span>
+        <span class="mini-player-note"></span>
+      </div>
+      <div class="mini-player-controls">
+        <button class="mini-player-prev" aria-label="Previous track" title="Previous">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="19 20 9 12 19 4"/><line x1="5" y1="19" x2="5" y2="5"/></svg>
+        </button>
+        <button class="mini-player-next" aria-label="Next track" title="Next">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="5 4 15 12 5 20"/><line x1="19" y1="5" x2="19" y2="19"/></svg>
+        </button>
+        <button class="mini-player-close" aria-label="Close player" title="Close">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Project Detail Modal -->
+  <div id="modal-overlay" class="modal-overlay" role="dialog" aria-modal="true" aria-hidden="true">
+    <div class="modal">
+      <button class="modal-close" aria-label="Close">&times;</button>
+      <div id="modal-content"></div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
