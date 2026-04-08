@@ -48,7 +48,7 @@ const projects = [
     status: "active",
     tags: ["Digital Humanities", "Counter-Archive", "NLP", "Texas-Mexico Border"],
     question:
-      "What does an ethnic cleansing look like when reconstructed from the newspapers that witnessed it?",
+      "What does an ethnic cleansing look like when reconstructed from the newspapers that covered it without calling it one?",
     architecture: [
       "Digital counter-archive assembling 27,000+ newspaper pages from La Prensa, the Brownsville Herald, and El Dem\u00f3crata Fronterizo",
       "1,624 pages of the Canales proceedings and a 962-page RIAA report",
@@ -66,7 +66,7 @@ const projects = [
     status: "active",
     tags: ["Personal Knowledge", "Embeddings", "Archive", "Memory"],
     question:
-      "What have you forgotten you already knew?",
+      "What does your archive know about you that you\u2019ve forgotten?",
     architecture: [
       "A personal knowledge system that reads your own archive \u2014 years of writing, conversation, and thinking \u2014 embeds it, and surfaces connections you missed",
       "The same embedding and retrieval infrastructure that powers La Matanza\u2019s counter-archive, turned inward",
@@ -82,7 +82,7 @@ const projects = [
     status: "active",
     tags: ["Tibetan NLP", "Multi-Agent", "Translation", "84,000 Project"],
     question:
-      "Can we accelerate the translation of the Tibetan Buddhist canon?",
+      "231,000 pages of Tibetan Buddhist scripture remain untranslated. Can multi-agent AI clear the bottleneck?",
     architecture: [
       "Multi-agent pipeline where four specialized agents \u2014 literal translator, technical terminologist, poetic register, and synthesizer \u2014 produce first-pass translations of untranslated texts",
       "Flags disagreements and doctrinal sensitivities for human review",
@@ -126,6 +126,19 @@ const projects = [
     ethics: null,
     links: { "Live Site": "https://american-redlining-atlas.netlify.app/" },
   },
+  {
+    id: "mantis",
+    name: "Mantis",
+    subtitle: null,
+    status: "active",
+    tags: ["Prediction Markets", "Cultural Analysis", "Automation", "Ethics"],
+    question:
+      "A prediction market trading bot that reads cultural signals from emergent discourse on Reddit and 4chan to estimate probability on live markets. Built with a risk manager, exit logic, and a dry-run mode. The question it raises: if you can model cultural emergence well enough to trade on it, what are the ethics of doing so?",
+    architecture: null,
+    findings: null,
+    ethics: null,
+    links: {},
+  },
   // --- Planned ---
   {
     id: "merit-dedicator",
@@ -147,7 +160,7 @@ const projects = [
     status: "planned",
     tags: ["Cross-Modal", "Jung", "Image Analysis"],
     question:
-      "Cross-modal analysis of Jung\u2019s Red Book: when do images contradict text?",
+      "Jung\u2019s Red Book puts images and text in conversation. When do they contradict each other?",
     architecture: null,
     findings: null,
     ethics: null,
@@ -160,7 +173,7 @@ const projects = [
     status: "planned",
     tags: ["Embeddings", "Taxonomy", "Phenomenology"],
     question:
-      "Empirically derived taxonomy of altered states from trip report embeddings.",
+      "What are the actual categories of altered states, derived from tens of thousands of first-person accounts?",
     architecture: null,
     findings: null,
     ethics: null,
