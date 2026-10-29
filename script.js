@@ -67,10 +67,11 @@ const projects = [
     question:
       "What does the algorithm think you are \u2014 and what happens when you make yourself unreadable to it?",
     architecture: [
-      "A browser extension captures your own scroll sessions; recordings are encrypted on your machine and the unencrypted originals deleted",
+      "Screen recordings of your own scroll sessions, captured on your phone, are encrypted before they leave the device",
+      "A browser extension provides a second capture path",
       "Seven multimodal enrichment modules annotate each reel",
       "CLIP and sentence-transformer embeddings, clustered with UMAP and HDBSCAN, map the profile the platform is building",
-      "An LLM interpretive engine, running on a local model by default, writes per-reel annotations and a diagnostic for each session",
+      "An LLM interpretive engine, running on a local model by default, writes a critical reading of each reel; session-level diagnostics are next",
     ],
     findings: null,
     ethics: null,
