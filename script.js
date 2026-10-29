@@ -5,6 +5,40 @@
 // ---- Project Data ----
 
 const projects = [
+  // --- Live ---
+  {
+    id: "redlining-atlas",
+    name: "Atlas of American Redlining",
+    subtitle: null,
+    status: "live",
+    tags: ["Spatial Data", "Historical GIS", "Racial Geography", "Public Tool"],
+    question:
+      "What did federal appraisers see when they looked at your neighborhood in 1938?",
+    architecture: [
+      "Interactive map displaying HOLC redlining data across American cities \u2014 the original grades, the original language, the original racial calculus",
+      "A companion to the inequality mapping projects that layer census data, highway construction, flood zones, and pollution exposure on top to show what happened next",
+    ],
+    findings: null,
+    ethics: null,
+    links: { "Live Site": "https://american-redlining-atlas.netlify.app/" },
+  },
+  {
+    id: "monastery-directory",
+    name: "Buddhist Monastery Directory",
+    subtitle: null,
+    status: "live",
+    tags: ["Mapping", "Buddhist Practice", "Public Tool"],
+    question:
+      "Where are the monasteries?",
+    architecture: [
+      "A filterable, map-based directory of Buddhist monasteries, temples, and practice centers across the Americas",
+      "Searchable by tradition, retreat offerings, visitor accessibility, and language",
+      "Nothing like it exists in modern, usable form. Built as a public good",
+    ],
+    findings: null,
+    ethics: null,
+    links: { "Live Site": "https://cristobalnramirez-ship-it.github.io/buddhist-monastery-directory/" },
+  },
   // --- Active ---
   {
     id: "zeitgeist",
@@ -78,75 +112,10 @@ const projects = [
     links: {},
   },
   {
-    id: "84000-pipeline",
-    name: "84,000 Translation Pipeline",
-    subtitle: null,
-    status: "active",
-    tags: ["Tibetan NLP", "Multi-Agent", "Translation", "84,000 Project"],
-    question:
-      "231,000 pages of Tibetan Buddhist scripture remain untranslated. Can multi-agent AI clear the bottleneck?",
-    architecture: [
-      "Multi-agent pipeline where four specialized agents \u2014 literal translator, technical terminologist, poetic register, and synthesizer \u2014 produce first-pass translations of untranslated texts",
-      "Flags disagreements and doctrinal sensitivities for human review",
-      "Built to support the 84,000 Project\u2019s mission of translating the entire Kangyur and Tengyur into modern languages",
-    ],
-    findings: null,
-    ethics: null,
-    links: {},
-  },
-  // --- Live ---
-  {
-    id: "monastery-directory",
-    name: "Buddhist Monastery Directory",
-    subtitle: null,
-    status: "live",
-    tags: ["Mapping", "Buddhist Practice", "Public Tool"],
-    question:
-      "Where are the monasteries?",
-    architecture: [
-      "A filterable, map-based directory of Buddhist monasteries, temples, and practice centers across the Americas",
-      "Searchable by tradition, retreat offerings, visitor accessibility, and language",
-      "Nothing like it exists in modern, usable form. Built as a public good",
-    ],
-    findings: null,
-    ethics: null,
-    links: { "Live Site": "https://cristobalnramirez-ship-it.github.io/buddhist-monastery-directory/" },
-  },
-  {
-    id: "redlining-atlas",
-    name: "Atlas of American Redlining",
-    subtitle: null,
-    status: "live",
-    tags: ["Spatial Data", "Historical GIS", "Racial Geography", "Public Tool"],
-    question:
-      "What did federal appraisers see when they looked at your neighborhood in 1938?",
-    architecture: [
-      "Interactive map displaying HOLC redlining data across American cities \u2014 the original grades, the original language, the original racial calculus",
-      "A companion to the inequality mapping projects that layer census data, highway construction, flood zones, and pollution exposure on top to show what happened next",
-    ],
-    findings: null,
-    ethics: null,
-    links: { "Live Site": "https://american-redlining-atlas.netlify.app/" },
-  },
-  {
-    id: "mantis",
-    name: "Mantis",
-    subtitle: null,
-    status: "archived",
-    tags: ["Prediction Markets", "Cultural Analysis", "Automation", "Ethics"],
-    question:
-      "A prediction market trading bot that reads cultural signals from emergent discourse on Reddit and 4chan to estimate probability on live markets. Built with a risk manager, exit logic, and a dry-run mode. The question it raises: if you can model cultural emergence well enough to trade on it, what are the ethics of doing so?",
-    architecture: null,
-    findings: null,
-    ethics: null,
-    links: {},
-  },
-  // --- Planned ---
-  {
     id: "merit-dedicator",
     name: "Merit Dedicator (Prayer Wheel)",
     subtitle: null,
-    status: "planned",
+    status: "active",
     tags: ["Contemplative Tech", "Automation", "Buddhist Practice"],
     question:
       "What happens when you embed devotional logic into computational infrastructure? Can a machine dedicate merit?",
@@ -155,6 +124,7 @@ const projects = [
     ethics: null,
     links: {},
   },
+  // --- Planned ---
   {
     id: "red-book",
     name: "Red Book Engine",
@@ -168,7 +138,7 @@ const projects = [
     ethics: null,
     links: {},
   },
-{
+  {
     id: "erowid",
     name: "Erowid Cartographer",
     subtitle: null,
@@ -177,6 +147,37 @@ const projects = [
     question:
       "How do people describe altered states in their own words, and how do those first-person accounts get sorted into categories? A study of tens of thousands of reports.",
     architecture: null,
+    findings: null,
+    ethics: null,
+    links: {},
+  },
+  // --- Archived ---
+  {
+    id: "mantis",
+    name: "Mantis",
+    subtitle: null,
+    status: "archived",
+    tags: ["Prediction Markets", "Cultural Analysis", "Automation", "Ethics"],
+    question:
+      "A prediction market trading bot that reads cultural signals from emergent discourse on Reddit and 4chan to estimate probability on live markets. Built with a risk manager, exit logic, and a dry-run mode. The question it raises: if you can model cultural emergence well enough to trade on it, what are the ethics of doing so?",
+    architecture: null,
+    findings: null,
+    ethics: null,
+    links: {},
+  },
+  {
+    id: "84000-pipeline",
+    name: "84,000 Translation Pipeline",
+    subtitle: null,
+    status: "archived",
+    tags: ["Tibetan NLP", "Multi-Agent", "Translation", "84,000 Project"],
+    question:
+      "231,000 pages of Tibetan Buddhist scripture remain untranslated. Can multi-agent AI clear the bottleneck?",
+    architecture: [
+      "Multi-agent pipeline where four specialized agents \u2014 literal translator, technical terminologist, poetic register, and synthesizer \u2014 produce first-pass translations of untranslated texts",
+      "Flags disagreements and doctrinal sensitivities for human review",
+      "Built to support the 84,000 Project\u2019s mission of translating the entire Kangyur and Tengyur into modern languages",
+    ],
     findings: null,
     ethics: null,
     links: {},
