@@ -78,6 +78,9 @@ Tags: NLP, Archive, State Violence, Texas-Mexico Border
 
 **Merit Dedicator (Prayer Wheel)** (Active)
 "What happens when you embed devotional logic into computational infrastructure? Can a machine dedicate merit?"
+- A program that repeats a dedication of merit, the way a prayer wheel turns a mantra
+- The premise is the essay Make the Machine Pray: repetition under constraint turns language into practice
+Essay: Make the Machine Pray: https://cristobalramirez.substack.com/p/make-the-robots-pray
 Tags: Contemplative Tech, Automation, Buddhist Practice
 
 **Red Book Engine** (Planned)

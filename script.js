@@ -119,10 +119,13 @@ const projects = [
     tags: ["Contemplative Tech", "Automation", "Buddhist Practice"],
     question:
       "What happens when you embed devotional logic into computational infrastructure? Can a machine dedicate merit?",
-    architecture: null,
+    architecture: [
+      "A program that repeats a dedication of merit, the way a prayer wheel turns a mantra",
+      "The premise is the essay Make the Machine Pray: repetition under constraint turns language into practice",
+    ],
     findings: null,
     ethics: null,
-    links: {},
+    links: { "Essay: Make the Machine Pray": "https://cristobalramirez.substack.com/p/make-the-robots-pray" },
   },
   // --- Planned ---
   {
