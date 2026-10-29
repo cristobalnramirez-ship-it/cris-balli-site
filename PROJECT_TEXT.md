@@ -1,60 +1,114 @@
-# Cris Balli Site — Project Text
+# Cristobal Ramirez — Site Text
 
-Exact wording from the portfolio site as of 2026-04-08.
+Exact wording from the portfolio site as of 2026-10-29.
 
 ---
 
 ## Writing
 
-**Lent, Losar, Ramadan** — Feb 19, 2026
-"Smoke floating through Sage Chapel as the clock tower's chimes beat through the air, indifferent to the rhythm of mass."
-
-**An Exercise in Memory** — Jan 22, 2026
-"Explores the paradox of forgotten childhood memories with a sibling despite their structural importance. What remains unremembered still constitutes who we are."
-
 **Make the Machine Pray** — Jan 19, 2026
-"Language shapes reality across spiritual and technological contexts. What happens when you redirect AI capacity toward liberation rather than surveillance?"
+On language models, mantra, and what we train machines to pray for.
+https://cristobalramirez.substack.com/p/make-the-robots-pray
+
+**The Waiting Room at the End of Time** — Mar 13, 2026
+On algorithmic recirculation and cultural stasis.
+https://cristobalramirez.substack.com/p/the-waiting-room-at-the-end-of-time
+
+**Dreaming Mexican Art** — May 13, 2026
+On tequitqui and indigenous labor misattributed in colonial architecture.
+https://cristobalramirez.substack.com/p/dreaming-mexican-art
+
+**Larping All the Way Down** — Jun 18, 2026
+A found-collage essay of fragments overheard at New York Tech Week.
+https://cristobalramirez.substack.com/p/the-line-starts-here
+
+**Is Canvassing the Method?** — Sep 27, 2026
+On doors, comment sections, and scrolling as a way of reading.
+https://cristobalramirez.substack.com/p/is-organizing-the-method
 
 ---
 
 ## Lab
 
 **Zeitgeist Scanner** (Active)
-"Can we detect emergent cultural formations — political movements, linguistic drift, ideological shifts — before they reach mainstream legibility?"
+"Retrodictive detection of emergent discourse formations — political movements, linguistic drift, ideological shifts — in multi-platform text. A null battery shows the method does not support forward prediction."
+- Multi-source cultural intelligence pipeline ingesting Reddit, 4chan, Telegram, and RSS feeds in twice-daily scan cycles
+- Sentence-transformer embeddings, UMAP, and HDBSCAN cluster the corpus; formations are identified retrodictively
+- A null battery establishes that the method does not support forward prediction
+- Ethical guardrails are built into the system architecture, not bolted on after
 Tags: Cultural Analysis, NLP, Clustering, Ethics (Samaya)
 
-**Counter-Ontology Mirror** (Active)
+**Tezca (Mirror)** (Active)
 "What does the algorithm think you are — and what happens when you make yourself unreadable to it?"
-Tags: Algorithmic Identity, Computer Vision, Contrastive Learning, Privacy
+- A browser extension captures your own scroll sessions; recordings are encrypted on your machine and the unencrypted originals deleted
+- Seven multimodal enrichment modules annotate each reel
+- CLIP and sentence-transformer embeddings, clustered with UMAP and HDBSCAN, map the profile the platform is building
+- An LLM interpretive engine, running on a local model by default, writes per-reel annotations and a diagnostic for each session
+Tags: Algorithmic Identity, Multimodal, Embeddings, Privacy
 
 **La Matanza** (Active)
-"What does an ethnic cleansing look like when reconstructed from the newspapers that witnessed it?"
+"What does an ethnic cleansing look like when reconstructed from the newspapers that covered it without calling it one?"
+- Digital counter-archive assembling 27,000+ newspaper pages from La Prensa, the Brownsville Herald, and El Demócrata Fronterizo
+- 1,623 units of testimony from the 1919 Canales Proceedings
+- NLP and embedding pipelines surface connections across thousands of pages of OCR’d testimony, reportage, and official record
+- Building the archive that should have existed for a century
 Tags: Digital Humanities, Counter-Archive, NLP, Texas-Mexico Border
 
 **Anamnesis** (Active)
-"What have you forgotten you already knew?"
-Tags: Personal Knowledge, Embeddings, Archive, Memory
+"Can the structural signature of erasure be detected in archives of state violence?"
+- NLP pipeline detecting the structural signature of erasure in archives of state violence
+- Corpus: 1,623 units of testimony from the 1919 Canales Proceedings and 163,792 units from 27,033 pages of border newspapers, 1915–1920
+- Five-dimension erasure rubric, calibrated to weighted Cohen’s kappa 0.62–0.89
+Tags: NLP, Archive, State Violence, Texas-Mexico Border
 
 **84,000 Translation Pipeline** (Active)
-"Can we accelerate the translation of the Tibetan Buddhist canon?"
+"231,000 pages of Tibetan Buddhist scripture remain untranslated. Can multi-agent AI clear the bottleneck?"
+- Multi-agent pipeline where four specialized agents — literal translator, technical terminologist, poetic register, and synthesizer — produce first-pass translations of untranslated texts
+- Flags disagreements and doctrinal sensitivities for human review
+- Built to support the 84,000 Project’s mission of translating the entire Kangyur and Tengyur into modern languages
 Tags: Tibetan NLP, Multi-Agent, Translation, 84,000 Project
 
 **Buddhist Monastery Directory** (Live)
 "Where are the monasteries?"
+- A filterable, map-based directory of Buddhist monasteries, temples, and practice centers across the Americas
+- Searchable by tradition, retreat offerings, visitor accessibility, and language
+- Nothing like it exists in modern, usable form. Built as a public good
+Live Site: https://cristobalnramirez-ship-it.github.io/buddhist-monastery-directory/
 Tags: Mapping, Buddhist Practice, Public Tool
 
 **Atlas of American Redlining** (Live)
 "What did federal appraisers see when they looked at your neighborhood in 1938?"
+- Interactive map displaying HOLC redlining data across American cities — the original grades, the original language, the original racial calculus
+- A companion to the inequality mapping projects that layer census data, highway construction, flood zones, and pollution exposure on top to show what happened next
+Live Site: https://american-redlining-atlas.netlify.app/
 Tags: Spatial Data, Historical GIS, Racial Geography, Public Tool
 
-**Merit Dedicator** (Planned) — Prayer Wheel
+**Mantis** (Archived)
+"A prediction market trading bot that reads cultural signals from emergent discourse on Reddit and 4chan to estimate probability on live markets. Built with a risk manager, exit logic, and a dry-run mode. The question it raises: if you can model cultural emergence well enough to trade on it, what are the ethics of doing so?"
+Tags: Prediction Markets, Cultural Analysis, Automation, Ethics
+
+**Merit Dedicator (Prayer Wheel)** (Planned)
 "What happens when you embed devotional logic into computational infrastructure? Can a machine dedicate merit?"
 Tags: Contemplative Tech, Automation, Buddhist Practice
 
 **Red Book Engine** (Planned)
-"Cross-modal analysis of Jung's Red Book: when do images contradict text?"
+"Jung’s Red Book puts images and text in conversation. When do they contradict each other?"
 Tags: Cross-Modal, Jung, Image Analysis
 
 **Erowid Cartographer** (Planned)
-"Empirically derived taxonomy of altered states from trip report embeddings."
+"How do people describe altered states in their own words, and how do those first-person accounts get sorted into categories? A study of tens of thousands of reports."
 Tags: Embeddings, Taxonomy, Phenomenology
+
+---
+
+## About
+
+My honors thesis in Comparative Literature at Cornell, *No Hay Nada de Ruinas: Computational Hauntology in the Rio Grande Valley* (April 2026), builds an NLP pipeline that applies a five-dimension erasure rubric to the 1919 Canales Proceedings, Texas’s only legislative investigation into the Texas Ranger killings of ethnic Mexicans, 1915–1920. I build computational tools for questions that don’t fit cleanly into one discipline—cultural emergence detection, archival memory systems, contemplative technology. I’m looking for work at organizations where critical thinking and technical capacity aren’t treated as separate skill sets.
+
+---
+
+## Contact
+
+- Email: cristobalnramirez@gmail.com
+- GitHub: https://github.com/cristobalnramirez-ship-it
+- Substack: https://cristobalramirez.substack.com

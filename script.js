@@ -1,5 +1,5 @@
 /* ============================================
-   Cris Balli — Site Logic
+   Cristobal Ramirez — Site Logic
    ============================================ */
 
 // ---- Project Data ----
@@ -13,10 +13,11 @@ const projects = [
     status: "active",
     tags: ["Cultural Analysis", "NLP", "Clustering", "Ethics (Samaya)"],
     question:
-      "Can we detect emergent cultural formations \u2014 political movements, linguistic drift, ideological shifts \u2014 before they reach mainstream legibility?",
+      "Retrodictive detection of emergent discourse formations \u2014 political movements, linguistic drift, ideological shifts \u2014 in multi-platform text. A null battery shows the method does not support forward prediction.",
     architecture: [
       "Multi-source cultural intelligence pipeline ingesting Reddit, 4chan, Telegram, and RSS feeds in twice-daily scan cycles",
-      "Local embeddings and unsupervised clustering surface what people are angry about before they know why",
+      "Sentence-transformer embeddings, UMAP, and HDBSCAN cluster the corpus; formations are identified retrodictively",
+      "A null battery establishes that the method does not support forward prediction",
       "Ethical guardrails are built into the system architecture, not bolted on after",
     ],
     findings: null,
@@ -25,17 +26,17 @@ const projects = [
   },
   {
     id: "counter-ontology",
-    name: "Counter-Ontology Mirror",
+    name: "Tezca (Mirror)",
     subtitle: null,
     status: "active",
-    tags: ["Algorithmic Identity", "Computer Vision", "Contrastive Learning", "Privacy"],
+    tags: ["Algorithmic Identity", "Multimodal", "Embeddings", "Privacy"],
     question:
       "What does the algorithm think you are \u2014 and what happens when you make yourself unreadable to it?",
     architecture: [
-      "Local-first, privacy-by-architecture tool that reverse-engineers how recommendation algorithms categorize you by analyzing screen recordings of your own scrolling sessions",
-      "CLIP embeddings and engagement signals fuse into interaction vectors; a contrastive learning model reconstructs the platform\u2019s model of you as a navigable vector space",
-      "Targeted behavioral disruption until you become unmappable",
-      "All processing local. Raw recordings encrypted on-device. You never scrape Instagram \u2014 you watch yourself watch Instagram",
+      "A browser extension captures your own scroll sessions; recordings are encrypted on your machine and the unencrypted originals deleted",
+      "Seven multimodal enrichment modules annotate each reel",
+      "CLIP and sentence-transformer embeddings, clustered with UMAP and HDBSCAN, map the profile the platform is building",
+      "An LLM interpretive engine, running on a local model by default, writes per-reel annotations and a diagnostic for each session",
     ],
     findings: null,
     ethics: null,
@@ -51,7 +52,7 @@ const projects = [
       "What does an ethnic cleansing look like when reconstructed from the newspapers that covered it without calling it one?",
     architecture: [
       "Digital counter-archive assembling 27,000+ newspaper pages from La Prensa, the Brownsville Herald, and El Dem\u00f3crata Fronterizo",
-      "1,624 pages of the Canales proceedings and a 962-page RIAA report",
+      "1,623 units of testimony from the 1919 Canales Proceedings",
       "NLP and embedding pipelines surface connections across thousands of pages of OCR\u2019d testimony, reportage, and official record",
       "Building the archive that should have existed for a century",
     ],
@@ -64,12 +65,13 @@ const projects = [
     name: "Anamnesis",
     subtitle: null,
     status: "active",
-    tags: ["Personal Knowledge", "Embeddings", "Archive", "Memory"],
+    tags: ["NLP", "Archive", "State Violence", "Texas-Mexico Border"],
     question:
-      "What does your archive know about you that you\u2019ve forgotten?",
+      "Can the structural signature of erasure be detected in archives of state violence?",
     architecture: [
-      "A personal knowledge system that reads your own archive \u2014 years of writing, conversation, and thinking \u2014 embeds it, and surfaces connections you missed",
-      "The same embedding and retrieval infrastructure that powers La Matanza\u2019s counter-archive, turned inward",
+      "NLP pipeline detecting the structural signature of erasure in archives of state violence",
+      "Corpus: 1,623 units of testimony from the 1919 Canales Proceedings and 163,792 units from 27,033 pages of border newspapers, 1915\u20131920",
+      "Five-dimension erasure rubric, calibrated to weighted Cohen\u2019s kappa 0.62\u20130.89",
     ],
     findings: null,
     ethics: null,
@@ -130,7 +132,7 @@ const projects = [
     id: "mantis",
     name: "Mantis",
     subtitle: null,
-    status: "active",
+    status: "archived",
     tags: ["Prediction Markets", "Cultural Analysis", "Automation", "Ethics"],
     question:
       "A prediction market trading bot that reads cultural signals from emergent discourse on Reddit and 4chan to estimate probability on live markets. Built with a risk manager, exit logic, and a dry-run mode. The question it raises: if you can model cultural emergence well enough to trade on it, what are the ethics of doing so?",
@@ -142,8 +144,8 @@ const projects = [
   // --- Planned ---
   {
     id: "merit-dedicator",
-    name: "Merit Dedicator",
-    subtitle: "Prayer Wheel",
+    name: "Merit Dedicator (Prayer Wheel)",
+    subtitle: null,
     status: "planned",
     tags: ["Contemplative Tech", "Automation", "Buddhist Practice"],
     question:
@@ -173,7 +175,7 @@ const projects = [
     status: "planned",
     tags: ["Embeddings", "Taxonomy", "Phenomenology"],
     question:
-      "What are the actual categories of altered states, derived from tens of thousands of first-person accounts?",
+      "How do people describe altered states in their own words, and how do those first-person accounts get sorted into categories? A study of tens of thousands of reports.",
     architecture: null,
     findings: null,
     ethics: null,
@@ -185,25 +187,34 @@ const projects = [
 // TODO: automate via RSS or Substack API
 const fallbackPosts = [
   {
-    title: "Lent, Losar, Ramadan",
-    date: "Feb 19, 2026",
-    excerpt:
-      "Smoke floating through Sage Chapel as the clock tower\u2019s chimes beat through the air, indifferent to the rhythm of mass.",
-    url: "https://cristobalramirez.substack.com/p/lent-losar-ramadan",
-  },
-  {
-    title: "An Exercise in Memory",
-    date: "Jan 22, 2026",
-    excerpt:
-      "Explores the paradox of forgotten childhood memories with a sibling despite their structural importance. What remains unremembered still constitutes who we are.",
-    url: "https://cristobalramirez.substack.com/p/an-exercise-in-memory",
-  },
-  {
     title: "Make the Machine Pray",
     date: "Jan 19, 2026",
-    excerpt:
-      "Language shapes reality across spiritual and technological contexts. What happens when you redirect AI capacity toward liberation rather than surveillance?",
+    excerpt: "On language models, mantra, and what we train machines to pray for.",
     url: "https://cristobalramirez.substack.com/p/make-the-robots-pray",
+  },
+  {
+    title: "The Waiting Room at the End of Time",
+    date: "Mar 13, 2026",
+    excerpt: "On algorithmic recirculation and cultural stasis.",
+    url: "https://cristobalramirez.substack.com/p/the-waiting-room-at-the-end-of-time",
+  },
+  {
+    title: "Dreaming Mexican Art",
+    date: "May 13, 2026",
+    excerpt: "On tequitqui and indigenous labor misattributed in colonial architecture.",
+    url: "https://cristobalramirez.substack.com/p/dreaming-mexican-art",
+  },
+  {
+    title: "Larping All the Way Down",
+    date: "Jun 18, 2026",
+    excerpt: "A found-collage essay of fragments overheard at New York Tech Week.",
+    url: "https://cristobalramirez.substack.com/p/the-line-starts-here",
+  },
+  {
+    title: "Is Canvassing the Method?",
+    date: "Sep 27, 2026",
+    excerpt: "On doors, comment sections, and scrolling as a way of reading.",
+    url: "https://cristobalramirez.substack.com/p/is-organizing-the-method",
   },
 ];
 
@@ -214,7 +225,7 @@ document.addEventListener("DOMContentLoaded", () => {
   initNav();
   initScrollSpy();
   renderProjects();
-  fetchWriting();
+  renderWritingCards(fallbackPosts); // curated list; live RSS would override the selection
   initModal();
   initMusic();
 });
@@ -548,6 +559,9 @@ async function initMusic() {
     const resp = await fetch("music/playlists.json");
     if (!resp.ok) throw new Error("Failed to load playlists");
     musicData = await resp.json();
+    if (!musicData.playlists?.some((p) => p.tracks.length)) return;
+    document.getElementById("music").hidden = false;
+    document.querySelector('.nav-links a[href="#music"]').hidden = false;
     renderPlaylistTabs();
     if (musicData.playlists.length > 0) {
       selectPlaylist(musicData.playlists[0].id);

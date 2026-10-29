@@ -101,6 +101,7 @@ section {
 }
 
 section:last-of-type { border-bottom: none; }
+[hidden] { display: none !important; }
 
 h2 {
   font-family: var(--f-display);
@@ -374,6 +375,7 @@ h2 {
 .badge-active  { background: var(--badge-active-bg);  color: var(--badge-active-fg); }
 .badge-early   { background: var(--badge-early-bg);   color: var(--badge-early-fg); }
 .badge-planned { background: var(--badge-planned-bg); color: var(--badge-planned-fg); }
+.badge-archived { background: var(--badge-planned-bg); color: var(--badge-planned-fg); }
 .badge-live    { background: var(--badge-live-bg);    color: var(--badge-live-fg); }
 
 .lab-card .card-question {

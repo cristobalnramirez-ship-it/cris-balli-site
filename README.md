@@ -1,4 +1,4 @@
-# Cris Balli — Personal Site
+# Cristobal Ramirez — Personal Site
 
 Single-page portfolio. Comparative Literature + Computational Research.
 
@@ -12,12 +12,14 @@ script.js    — project cards, Substack RSS fetch, theme toggle, modals
 
 ## Deploy
 
+Live at `cristobalramirez.dev` (Netlify, linked to this repo; every push to `main` deploys) and at the GitHub Pages URL below.
+
 Drop the folder onto any static host:
 
 **GitHub Pages**
-1. Push to a repo (e.g., `crisballi.github.io`)
+1. Push to this repo (`cristobalnramirez-ship-it/cris-balli-site`)
 2. Settings → Pages → deploy from `main` branch, root `/`
-3. Live at `https://crisballi.github.io`
+3. Live at `https://cristobalnramirez-ship-it.github.io/cris-balli-site/`
 
 **Netlify / Vercel**
 1. Drag-and-drop the folder, or connect the repo
@@ -37,9 +39,7 @@ Open `http://localhost:8000`.
 
 ### Substack posts
 
-The site attempts to fetch from `https://crisballi.substack.com/feed` on page load. If CORS blocks it (common on static hosts), it falls back to the `fallbackPosts` array in `script.js`.
-
-To update manually, edit `fallbackPosts` in `script.js`:
+The Writing list is curated by hand: edit the `fallbackPosts` array in `script.js` and the matching cards in `index.html` (the HTML copy is what visitors without JavaScript see). The live RSS fetch is disabled so it can't override the selection.
 
 ```js
 const fallbackPosts = [
@@ -47,7 +47,7 @@ const fallbackPosts = [
     title: "Your Post Title",
     date: "Jan 15, 2026",
     excerpt: "First couple sentences of the post.",
-    url: "https://crisballi.substack.com/p/your-post-slug",
+    url: "https://cristobalramirez.substack.com/p/your-post-slug",
   },
   // ...
 ];
@@ -85,8 +85,7 @@ Active/early projects get a clickable detail modal. Planned projects display as 
 - **About text** — edit directly in `index.html`, `#about` section
 - **Contact links** — edit in `index.html`, `#contact` section
 - **Hero links** — edit in `index.html`, `#hero` section
-- **Email** — search for `cris@example.com` and replace with actual address
-- **Resume** — place a `resume.pdf` in the same folder
+- **Resume** — place a `resume.pdf` in the same folder, then add the link back in the `#about` section
 
 ### Theme
 
